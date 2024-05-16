@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258235906718",
+    "project_id": "dinospizza-504bb",
+    "storage_bucket": "dinospizza-504bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258235906718:android:c5f9fa1e0e8b05b343998f",
+        "android_client_info": {
+          "package_name": "com.example.dinospizza"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBViym6fhD3wDsi9G_-LTTr8bjqemlRT-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

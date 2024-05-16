@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginRight="8dp"
+    android:background="@drawable/recycler_bg2">
+
+
+    <ImageView
+        android:id="@+id/custom2_img"
+        android:layout_width="86dp"
+        android:layout_height="95dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/popular1" />
+
+    <TextView
+        android:id="@+id/custom2_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/custom2_img"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/custom2_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/custom2_title"
+        app:layout_constraintTop_toBottomOf="@+id/custom2_title" />
+
+    <ImageView
+        android:id="@+id/custom2_estre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/custom2_sub"
+        app:layout_constraintTop_toBottomOf="@+id/custom2_sub"
+        app:srcCompat="@drawable/ic_mdi_star_rate" />
+
+    <TextView
+        android:id="@+id/custom2_cali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="3.9"
+        app:layout_constraintBottom_toBottomOf="@+id/custom2_estre"
+        app:layout_constraintStart_toEndOf="@+id/custom2_estre"
+        app:layout_constraintTop_toTopOf="@+id/custom2_estre" />
+
+    <TextView
+        android:id="@+id/custom2_descue"
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/time_bg"
+        android:gravity="center"
+        android:text="%20"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/custom2_cali"
+        app:layout_constraintStart_toEndOf="@+id/custom2_cali"
+        app:layout_constraintTop_toTopOf="@+id/custom2_cali" />
+
+    <TextView
+        android:id="@+id/custom2_lim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="5 noviembre"
+        app:layout_constraintBottom_toBottomOf="@+id/custom2_descue"
+        app:layout_constraintStart_toEndOf="@+id/custom2_descue"
+        app:layout_constraintTop_toTopOf="@+id/custom2_descue" />
+
+    <TextView
+        android:id="@+id/custom2_pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="$30"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
